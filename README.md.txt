@@ -1,13 +1,28 @@
-# Python Crypto Trading Bot (Mock Version)
+# 🚀 Crypto Trading Bot (Mock Binance)
 
-This is a mock implementation of a simplified trading bot developed for the hiring task.
+This is a Python-based crypto trading bot built for educational purposes and as part of a hiring/assignment process. It simulates order placements using a mocked Binance Futures API due to access limitations with the Binance Testnet.
 
-## Features
-- Takes user input (API key, order type, etc.)
-- Simulates order using mock Binance client
-- Logs order result to bot.log
+---
 
-## Note
-Binance Testnet API was unavailable, so a mock client is used to simulate trading.
+## 📌 Features
 
-Submitted by: [M Charanya]
+- Place **Buy/Sell Market Orders**
+- Input via **Command-Line Interface (CLI)**
+- Mocked API mimics Binance Futures responses
+- Logs all actions to a file (`bot.log`)
+- Handles exceptions gracefully
+- Modular class-based structure for easy expansion
+
+---
+
+## 🧪 Requirements
+
+- Python 3.7+
+- No external packages required (`requests` or actual API interaction not used due to mocking)
+
+---
+
+## 🛠 How to Run
+
+```bash
+python bot_working.py
